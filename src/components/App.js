@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-//api key = 44ee69c9022d4d09a061bbe23d515896
-//emonayyyy
 
 import NewsSource from './NewsSource';
 

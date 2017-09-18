@@ -14,7 +14,6 @@ class NewsSource extends Component {
         fetch("https://newsapi.org/v1/articles?source=" + this.props.from + "&sortBy=top&apiKey=44ee69c9022d4d09a061bbe23d515896")
             .then(resp => resp.json()) 
             .then(foundStories => {
-                console.log(foundStories.articles[0].title);
                 this.setState ({
                     stories: foundStories.articles,
                 });
