@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 90px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+img {
+  width: 100%;
+}
+
+.news-container {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+
+#News1, #News2, #News3 {
+  width: 30%;
+}
